@@ -1,0 +1,48 @@
+{
+  "__version__": "1.0.5",
+  "layer": [
+    {
+      "name": "UI_VIEW",
+      "value": 524288
+    }
+  ],
+  "general": {
+    "designResolution": {
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "BULLET"
+      },
+      {
+        "index": 2,
+        "name": "PLAYER"
+      },
+      {
+        "index": 3,
+        "name": "HEART"
+      },
+      {
+        "index": 4,
+        "name": "PROTECT"
+      },
+      {
+        "index": 5,
+        "name": "NINAJ"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 7,
+      "1": 5,
+      "2": 59,
+      "3": 4,
+      "4": 4,
+      "5": 4
+    }
+  },
+  "custom_joint_texture_layouts": []
+}
